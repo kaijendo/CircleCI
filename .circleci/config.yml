@@ -5,5 +5,4 @@ jobs:
     - image: circleci/ruby:2.4.1 # define version of docker image to use when it build project.
     steps: # define all step when circleCI along running.
       - checkout
-      - run: 
-        echo "Hello word"
+      - run: echo "Hello word"
