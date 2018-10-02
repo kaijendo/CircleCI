@@ -7,5 +7,5 @@ jobs:
       - checkout
       - run:
         name: Run firts time to build
-        command: |
-          echo: "Hello world"
+        command: 
+          echo "Hello world"
