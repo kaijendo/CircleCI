@@ -9,8 +9,10 @@ jobs:
         name: Run firts time to build
         command: |
           echo "Hello world"
+          fi
       - run:
         name: Run last time to build
         command: |
           echo "hello world step 2"
+          fi
 
