@@ -7,12 +7,8 @@ jobs:
       - checkout
       - run:
         name: Run firts time to build
-        command: |
-          echo "Hello world"
-          fi
+        command: echo "Hello world"
       - run:
         name: Run last time to build
-        command: |
-          echo "hello world step 2"
-          fi
+        command: echo "hello world step 2"
 
