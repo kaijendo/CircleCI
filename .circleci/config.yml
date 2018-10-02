@@ -6,5 +6,5 @@ jobs:
     steps: # define all step when circleCI along running.
       - checkout
       - run: 
-        echo: "Hello word"
+        echo "Hello word"
 
