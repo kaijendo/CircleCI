@@ -7,10 +7,10 @@ jobs:
       - checkout
       - run:
         name: Run firts time to build
-        command: 
+        command: |
           echo "Hello world"
       - run:
         name: Run last time to build
-        command:
+        command: |
           echo "hello world step 2"
-          
+
